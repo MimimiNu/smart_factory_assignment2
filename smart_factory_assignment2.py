@@ -329,7 +329,7 @@ def calculate_unbiased_constants(n: int) -> Dict[str, float]:
         "d2": get_coef(D2, n),
         "D3": get_coef(D3, n),
         "D4": get_coef(D4, n),
-        "C4": c4_value(C4)
+        "C4": c4_value(n)
     }
 
 
